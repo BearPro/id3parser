@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Id3Parser", "Id3Parser\Id3Parser.csproj", "{DD223948-C9B2-427C-944D-E4E9F491C7FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID3Parser_MSTest", "ID3Parser_MSTest\ID3Parser_MSTest.csproj", "{6C75BC90-FDBF-4230-A021-AFEF5A279EF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD223948-C9B2-427C-944D-E4E9F491C7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD223948-C9B2-427C-944D-E4E9F491C7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD223948-C9B2-427C-944D-E4E9F491C7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD223948-C9B2-427C-944D-E4E9F491C7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C75BC90-FDBF-4230-A021-AFEF5A279EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C75BC90-FDBF-4230-A021-AFEF5A279EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C75BC90-FDBF-4230-A021-AFEF5A279EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C75BC90-FDBF-4230-A021-AFEF5A279EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7243D222-70B7-47BC-999B-D655320CB5FE}
+	EndGlobalSection
+EndGlobal

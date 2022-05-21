@@ -6,7 +6,6 @@ namespace Id3Parser
 {
     public interface IMetadata
     {
-        #nullable enable
         // COMM
         string? Comments { get; }
         // PCNT
@@ -43,6 +42,5 @@ namespace Id3Parser
         int? TrackNumber { get; }
         // TRACK
         int? TrackTotal { get; }
-        #nullable disable
     }
 }

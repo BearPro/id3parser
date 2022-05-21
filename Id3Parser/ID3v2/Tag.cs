@@ -10,8 +10,6 @@ namespace Id3Parser.ID3v2
         public TagHeader Header { get; protected set; }
         public LinkedList<Frame> Frames { get; protected set; }
 
-        #region Metadata properties
-        #nullable enable
         public string? Comments { get; protected set; }
 
         public int? PlayCounter { get; protected set; }
@@ -37,13 +35,16 @@ namespace Id3Parser.ID3v2
         public string? Information { get; protected set; }
 
         public string? Band { get; protected set; }
+
         public TimeSpan? Length { get; protected set; }
+
         public string? Genre { get; protected set; }
+
         public string? Publisher { get; protected set; }
+
         public int? TrackNumber { get; protected set; }
+
         public int? TrackTotal { get; protected set; }
-        #nullable disable
-        #endregion
 
         public Tag(TagHeader header, IEnumerable<Frame> frames)
         {
